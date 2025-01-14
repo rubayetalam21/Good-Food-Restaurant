@@ -176,7 +176,7 @@
     gap: 25px;
 }
 
-img {
+.image {
     width: 600px;
     margin-left: 10px;
 }
@@ -212,4 +212,19 @@ img {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    justify-content: center;
+}
+.footer{
+    margin: 20px;
 }
